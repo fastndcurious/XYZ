@@ -1,4 +1,5 @@
 require: rubocop-rails
+require: rubocop-rspec
 
 inherit_from:
   - http://relaxed.ruby.style/rubocop.yml

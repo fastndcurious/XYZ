@@ -65,8 +65,8 @@ group :development do
 end
 
 group :test do
-  gem 'shoulda-matchers', '~> 4.0', '>= 4.0.1'
   gem 'database_cleaner', '~> 1.7'
+  gem 'shoulda-matchers', '~> 4.0', '>= 4.0.1'
   gem 'simplecov', '~> 0.16.1', require: false
 end
 

@@ -1,9 +1,6 @@
 require: rubocop-rails
 require: rubocop-rspec
 
-inherit_from:
-  - http://relaxed.ruby.style/rubocop.yml
-
 AllCops:
   DisplayStyleGuide: true
   DisplayCopNames: true
@@ -16,12 +13,34 @@ AllCops:
 Rails:
   Enabled: true
 
-Layout/IndentationConsistency:
-  EnforcedStyle: rails
+Rails/Output:
+  Enabled: false
+
+Style/DateTime:
+  Enabled: true
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 110
 
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
-    - 'test/**/*.rb'
     - 'Guardfile'
     - 'vendor/bundle'
+    - 'config/routes.rb'
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+RSpec/MultipleExpectations:
+  Exclude:
+    - 'spec/**/*.rb'
+
+RSpec/InstanceVariable:
+  Exclude:
+    - 'spec/**/*.rb'

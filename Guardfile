@@ -17,6 +17,7 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
+# guard-rubocop, check documentation https://github.com/yujinakayama/guard-rubocop/
 guard :rubocop do
   watch(/.+\.rb$/)
   watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }

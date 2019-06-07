@@ -1,0 +1,38 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rd2d/Code/Projects/CitizenYY/XYZ/app/mailers/application_mailer.rb": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/rd2d/Code/Projects/CitizenYY/XYZ/app/models/application_record.rb": [
+        null,
+        null,
+        0,
+        0,
+        0
+      ],
+      "/Users/rd2d/Code/Projects/CitizenYY/XYZ/app/channels/application_cable/connection.rb": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/rd2d/Code/Projects/CitizenYY/XYZ/app/channels/application_cable/channel.rb": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1559916365
+  }
+}

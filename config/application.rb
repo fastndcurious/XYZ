@@ -31,5 +31,19 @@ module XYZ
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Customize Rails generator behaviors
+    config.generators do |g|
+      g.orm             :active_record
+      g.template_engine :erb
+      g.test_framework  :rspec
+      g.assets          false
+      g.helper          false
+      g.stylesheets     false
+      g.system_tests = nil
+    end
+
+    # Use Sidekiq
+    config.active_job.queue_adapter = :sidekiq
   end
 end

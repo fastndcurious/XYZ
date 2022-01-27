@@ -49,7 +49,7 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.7'
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'sandi_meter', '~> 1.2'
-  gem 'sidekiq', '~> 5.2', '>= 5.2.7'
+  gem 'sidekiq', '~> 6.4'
 end
 
 group :development do
